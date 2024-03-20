@@ -3,6 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="splash">#FDC0BB</color>
-    <color name="orange">#FFC107</color>
-    <color name="chapterDetails">#6E6E6E</color>
+    <color name="orange">#FF7842</color>
+    <color name="chapterDetails">#696969</color>
 </resources>
