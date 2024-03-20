@@ -144,7 +144,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="6.50dp"
-            android:visibility="visible">
+            android:visibility="gone">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -163,7 +163,7 @@
             android:visibility="visible"
             android:padding="6.50dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:listitem=""
+            tools:listitem="@layout/item_view_chapters"
             />
 
     </LinearLayout>

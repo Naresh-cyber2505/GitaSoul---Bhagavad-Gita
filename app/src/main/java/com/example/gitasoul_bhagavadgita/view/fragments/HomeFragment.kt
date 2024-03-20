@@ -8,8 +8,6 @@ import android.view.WindowManager
 import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.fragment.app.Fragment
-import com.example.gitasoul_bhagavadgita.ARG_PARAM1
-import com.example.gitasoul_bhagavadgita.ARG_PARAM2
 import com.example.gitasoul_bhagavadgita.R
 
 
