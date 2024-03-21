@@ -1,4 +1,4 @@
-package com.example.gitasoul_bhagavadgita.view
+package com.example.gitasoulbhagavadgita.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -16,11 +16,69 @@
         android:orientation="vertical"
         android:clickable="true"
         android:focusable="true"
-        android:background=""
+        android:background="@drawable/chapter_selector"
         android:padding="6.50dp"
         >
 
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvChNo"
+            android:background="@drawable/bg_shimmer"
+            android:textStyle="bold"
+            android:textSize="15.60dp"
+            android:textColor="@color/orange"
+            />
 
+        <TextView
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvChtitle"
+            android:layout_margin="1.30dp"
+            android:background="@drawable/bg_shimmer"
+            android:textStyle="bold"
+            android:textSize="15.60dp"
+            android:textColor="@color/orange"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:id="@+id/tvChtitl"
+            android:layout_marginTop="6.30dp"
+            android:background="@drawable/bg_shimmer"
+            android:textStyle="bold"
+            android:textSize="15.60dp"
+            android:textColor="@color/orange"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="9.10dp"
+            >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_shimmer"
+                />
+
+            <TextView
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvChtit"
+                android:layout_marginStart="13.30dp"
+                android:background="@drawable/bg_shimmer"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15.60dp"
+                android:textColor="@color/orange"
+                />
+
+        </LinearLayout>
 
     </LinearLayout>
 

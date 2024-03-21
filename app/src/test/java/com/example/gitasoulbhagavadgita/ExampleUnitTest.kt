@@ -1,4 +1,4 @@
-package com.example.gitasoul_bhagavadgita
+package com.example.gitasoulbhagavadgita
 
 import org.junit.Test
 

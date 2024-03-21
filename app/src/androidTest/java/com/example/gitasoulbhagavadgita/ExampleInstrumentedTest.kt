@@ -1,4 +1,4 @@
-package com.example.gitasoul_bhagavadgita
+package com.example.gitasoulbhagavadgita
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
