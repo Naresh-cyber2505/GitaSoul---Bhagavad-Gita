@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".view.fragments.HomeFragment">
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clGita"

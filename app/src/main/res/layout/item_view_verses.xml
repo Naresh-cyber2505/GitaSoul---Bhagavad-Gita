@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="7dp"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chapter_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:padding="6.50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/baseline_edit_note_24"
+                    android:layout_weight="0.1"
+                    app:tint="@color/orange"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvVerseNumber"
+                    android:text="Verse 1"
+                    android:textStyle="bold"
+                    android:layout_weight="2.8"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="16dp"
+                    android:textColor="@color/orange"/>
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:id="@+id/ivNext"
+                    android:src="@drawable/baseline_keyboard_double_arrow_right_24"
+                    android:tint="@color/orange"
+                    android:layout_weight="0.1"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:id="@+id/tvVerse"
+                android:text="O Sanjaya, what did my people and the Pāṇḍavas do, gathered together on the holy field of Kurukshetra, eager for battle"
+                android:layout_weight="2"
+                android:layout_margin="4dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:alpha="0.3"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/verse_top_right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/background2"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:alpha="0.4"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/verse_chakra"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/background3"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:alpha="0.4"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/verse_bottom_left"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
